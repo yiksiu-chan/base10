@@ -1,2 +1,2 @@
 ## Language Models Encode Numbers Using Digit Representations in Base 10
-Code coming soon.
+Currently only the code to replicate the main probing experiment is here, the rest is coming soon, if you need any specific piece of code that isn't here please ping me.
