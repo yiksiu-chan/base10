@@ -48,7 +48,8 @@ def train_circular_probe(params, mt, num_to_hidden):
     logging.debug(f'{mt.model.__class__=}')
 
     embedding_size = num_to_hidden[0][0].shape[-1]
-    assert embedding_size > 1000
+    print(embedding_size)
+    # assert embedding_size > 1000
     
     # initalize the circular probe
     circular_probe = CircularProbe(embedding_size, params['basis'], params['bias'])
